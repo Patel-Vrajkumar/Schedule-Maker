@@ -1,0 +1,220 @@
+{
+  "WeekStartDate": "2024-11-06T00:00:00",
+  "Employees": [
+    {
+      "Name": "Beth",
+      "Availability": {
+        "Sunday": false,
+        "Monday": true,
+        "Tuesday": true,
+        "Wednesday": true,
+        "Thursday": true,
+        "Friday": true,
+        "Saturday": true
+      },
+      "PreferredShifts": [
+        "Opening",
+        "PostOpening"
+      ],
+      "HourPreference": "ThirtyToForty"
+    },
+    {
+      "Name": "Damini",
+      "Availability": {
+        "Sunday": true,
+        "Monday": true,
+        "Tuesday": true,
+        "Wednesday": true,
+        "Thursday": true,
+        "Friday": true,
+        "Saturday": false
+      },
+      "PreferredShifts": [
+        "Middle",
+        "PostOpening"
+      ],
+      "HourPreference": "TenToTwenty"
+    },
+    {
+      "Name": "Vraj",
+      "Availability": {
+        "Sunday": true,
+        "Monday": false,
+        "Tuesday": true,
+        "Wednesday": true,
+        "Thursday": true,
+        "Friday": false,
+        "Saturday": true
+      },
+      "PreferredShifts": [
+        "PreClosing",
+        "Closing"
+      ],
+      "HourPreference": "TwentyToThirty"
+    },
+    {
+      "Name": "Blake",
+      "Availability": {
+        "Sunday": false,
+        "Monday": true,
+        "Tuesday": false,
+        "Wednesday": true,
+        "Thursday": true,
+        "Friday": true,
+        "Saturday": true
+      },
+      "PreferredShifts": [
+        "Closing",
+        "Middle"
+      ],
+      "HourPreference": "TwentyToThirty"
+    }
+  ],
+  "Shifts": [
+    {
+      "EmployeeName": "Beth",
+      "Day": "Wednesday",
+      "StartTime": "08:00:00",
+      "EndTime": "13:30:00",
+      "BreakDuration": "00:30:00",
+      "Type": "Opening"
+    },
+    {
+      "EmployeeName": "Vraj",
+      "Day": "Wednesday",
+      "StartTime": "16:30:00",
+      "EndTime": "22:00:00",
+      "BreakDuration": "00:30:00",
+      "Type": "PreClosing"
+    },
+    {
+      "EmployeeName": "Blake",
+      "Day": "Wednesday",
+      "StartTime": "17:00:00",
+      "EndTime": "22:00:00",
+      "BreakDuration": "00:15:00",
+      "Type": "Closing"
+    },
+    {
+      "EmployeeName": "Beth",
+      "Day": "Thursday",
+      "StartTime": "07:30:00",
+      "EndTime": "13:00:00",
+      "BreakDuration": "00:30:00",
+      "Type": "Opening"
+    },
+    {
+      "EmployeeName": "Damini",
+      "Day": "Thursday",
+      "StartTime": "11:30:00",
+      "EndTime": "15:30:00",
+      "BreakDuration": "00:15:00",
+      "Type": "PostOpening"
+    },
+    {
+      "EmployeeName": "Vraj",
+      "Day": "Thursday",
+      "StartTime": "17:00:00",
+      "EndTime": "22:00:00",
+      "BreakDuration": "00:30:00",
+      "Type": "PreClosing"
+    },
+    {
+      "EmployeeName": "Beth",
+      "Day": "Friday",
+      "StartTime": "07:30:00",
+      "EndTime": "13:00:00",
+      "BreakDuration": "00:30:00",
+      "Type": "Opening"
+    },
+    {
+      "EmployeeName": "Damini",
+      "Day": "Friday",
+      "StartTime": "11:30:00",
+      "EndTime": "15:30:00",
+      "BreakDuration": "00:15:00",
+      "Type": "PostOpening"
+    },
+    {
+      "EmployeeName": "Blake",
+      "Day": "Friday",
+      "StartTime": "17:00:00",
+      "EndTime": "22:00:00",
+      "BreakDuration": "00:15:00",
+      "Type": "Closing"
+    },
+    {
+      "EmployeeName": "Beth",
+      "Day": "Saturday",
+      "StartTime": "08:00:00",
+      "EndTime": "13:30:00",
+      "BreakDuration": "00:30:00",
+      "Type": "Opening"
+    },
+    {
+      "EmployeeName": "Vraj",
+      "Day": "Saturday",
+      "StartTime": "11:30:00",
+      "EndTime": "17:00:00",
+      "BreakDuration": "00:30:00",
+      "Type": "PostOpening"
+    },
+    {
+      "EmployeeName": "Blake",
+      "Day": "Saturday",
+      "StartTime": "17:00:00",
+      "EndTime": "22:00:00",
+      "BreakDuration": "00:15:00",
+      "Type": "Closing"
+    },
+    {
+      "EmployeeName": "Vraj",
+      "Day": "Sunday",
+      "StartTime": "17:00:00",
+      "EndTime": "22:00:00",
+      "BreakDuration": "00:30:00",
+      "Type": "PreClosing"
+    },
+    {
+      "EmployeeName": "Damini",
+      "Day": "Monday",
+      "StartTime": "14:00:00",
+      "EndTime": "19:00:00",
+      "BreakDuration": "00:30:00",
+      "Type": "Middle"
+    },
+    {
+      "EmployeeName": "Blake",
+      "Day": "Monday",
+      "StartTime": "11:30:00",
+      "EndTime": "15:30:00",
+      "BreakDuration": "00:15:00",
+      "Type": "PostOpening"
+    },
+    {
+      "EmployeeName": "Beth",
+      "Day": "Tuesday",
+      "StartTime": "08:00:00",
+      "EndTime": "13:30:00",
+      "BreakDuration": "00:30:00",
+      "Type": "Opening"
+    },
+    {
+      "EmployeeName": "Vraj",
+      "Day": "Tuesday",
+      "StartTime": "11:30:00",
+      "EndTime": "14:30:00",
+      "BreakDuration": "00:15:00",
+      "Type": "PostOpening"
+    }
+  ],
+  "ProjectedSales": {
+    "Sunday": 1200,
+    "Monday": 1200,
+    "Tuesday": 1200,
+    "Wednesday": 1550,
+    "Thursday": 1550,
+    "Friday": 1500,
+    "Saturday": 1250
+  }
+}
